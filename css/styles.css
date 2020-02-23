@@ -1,0 +1,125 @@
+@font-face { 
+  font-family: 'roboto medium'; 
+  src: url('../fonts/roboto-medium.ttf')  format('truetype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+@font-face { 
+  font-family: 'roboto black'; 
+  src: url('../fonts/roboto-black.ttf')  format('truetype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+@font-face { 
+  font-family: 'roboto light'; 
+  src: url('../fonts/roboto-light.ttf')  format('truetype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+html, body {
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+.parent {
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+align-items: center;
+justify-content: center; 
+overflow: auto;   
+}
+
+.template{
+width: 340px;
+height: 340px;
+padding: 30px;
+background-color: rgb(38, 38, 38);
+}
+.contact{
+background-color:rgb(250, 250, 250);
+border-radius: 10px;
+}
+.authorization{
+height: 54px;
+background-color: rgb(3, 169, 244);
+border-radius: 10px 10px 0 0;
+font-family: 'roboto medium';
+color: white;
+font-size: 24px;
+text-align: center;
+line-height: 48px;
+position: relative;
+}
+.authorization img{
+position: absolute;
+top: 10px;
+left: 62px;
+}
+.send{
+height: 170px;
+padding: 31px;
+position: relative;
+}
+.send_email,
+.send_passw{
+height: 41px;
+width: 270px;
+padding: 0%;
+border: 2px solid rgb(224, 224, 224);
+border-radius: 3px;
+font-family: 'roboto medium';
+color: rgb(224, 224, 224);
+font-size: 16px;
+padding-left: 6px;
+}
+.send_email:focus,
+.send_passw:focus{
+color: black;
+}
+.send_email_img{
+position: absolute;
+top: 46px;
+left: 274px;
+}
+.send_passw{
+margin: 19px 0;
+}
+.send_passw_img{
+position: absolute;
+top: 103px;
+left: 278px;
+}
+.send_btn{
+height: 45px;
+width: 274px;
+border: none;
+background-color: rgb(224, 67, 54);
+border-radius: 3px;
+font-family: 'roboto black';
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+.registration{
+height: 54px;
+background-color: rgb(238, 238, 238);
+border-radius: 0 0 10px 10px;
+font-family: 'roboto medium';
+color: black;
+font-size: 14px;
+text-align: center;
+line-height: 48px;
+}
+.registration a{
+font-family: 'roboto light';
+color: rgb(117, 117, 117);
+padding-left: 15px;
+text-decoration: none;
+}
